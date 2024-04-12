@@ -1,4 +1,4 @@
-# fyp-fastmri
+# FastMRI with SwinIR
 
 ## Getting Started
 
