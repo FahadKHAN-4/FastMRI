@@ -1,18 +1,18 @@
 # fyp-fastmri
 
 ## Getting Started
-In the project directory, install node modules via:
 
-Clone the project and run "streamlit run dashboard.py".
-Upload and low resolution MRI image to upscale.
+- Clone the repositiory.
+- Run "streamlit run dashboard.py".
+-Upload and low resolution MRI image to upscale.
 
-<img src="./demo-1.png" title="demo" alt="demo"/>&nbsp;
+<img src="./dashboard.png" title="demo" alt="demo"/>&nbsp;
 
 
-### Finetuning
+## Finetuning
 
 ###### Dataset
-Download additional dataset from https://fastmri.med.nyu.edu and save the file in the h5datafiles.
+Download additional dataset from https://fastmri.med.nyu.edu and save the file in the h5datafiles folder.
 
 ###### Training
 
