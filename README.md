@@ -11,10 +11,10 @@
 
 ## Finetuning
 
-###### Dataset
+##### Dataset
 Download additional dataset from https://fastmri.med.nyu.edu and save the file in the h5datafiles folder.
 
-###### Training
+##### Training
 
 - Run Data_collection.ipynb and new data would be appended to data in the dataset folder.
 
