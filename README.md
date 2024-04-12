@@ -4,7 +4,7 @@
 
 - Clone the repositiory.
 - Run "streamlit run dashboard.py".
--Upload and low resolution MRI image to upscale.
+- Upload and low resolution MRI image to upscale.
 
 <img src="./dashboard.png" title="demo" alt="demo"/>&nbsp;
 
