@@ -6,7 +6,7 @@ FastMRI aims to solve the problems of the slow scanning process of MRI images. I
 
 - Clone the repositiory.
 - Run "streamlit run dashboard.py".
-- Upload and low resolution MRI image to upscale.
+- Upload low resolution MRI image to upscale.
 
 <img src="./dashboard.png" title="demo" alt="demo"/>&nbsp;
 
