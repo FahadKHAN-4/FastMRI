@@ -22,6 +22,9 @@ Download additional dataset from https://fastmri.med.nyu.edu and save the file i
 
 - Run SwinIR_Train.ipynb file in google colab or any other eviroment. 
 
+## Local Testing
+Users can use Upscale_testing.ipynb to test the image restoration without using the dashboard with different trained weights quickly.
+
 ## Enviroment
 
 Create python virtual enviroment and install the following libraries:
