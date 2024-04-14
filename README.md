@@ -21,3 +21,20 @@ Download additional dataset from https://fastmri.med.nyu.edu and save the file i
 - Run Data_collection.ipynb and new data would be appended to data in the dataset folder.
 
 - Run SwinIR_Train.ipynb file in google colab or any other eviroment. 
+
+## Enviroment
+
+Create python virtual enviroment and install the following libraries:
+- streamlit
+- torch
+- torchvision
+- sklearn
+- h5py
+- matplotlib
+- numpy
+- PIL
+- cv2
+- io
+- copy
+- timm
+- math

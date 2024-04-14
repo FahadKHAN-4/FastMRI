@@ -863,7 +863,7 @@ class SwinIR(nn.Module):
 ############################################################################################################################################ 
 
 def process_image(input_image):
-    # Define the scaling and window size
+    
     window_size = 8
     SCALE = 2
 
@@ -907,13 +907,10 @@ def process_image(input_image):
 
 #########################
 
-# Set page configuration for title and layout
 st.set_page_config(page_title="FastMRI", layout="wide")
 
-# Streamlit app layout adjustments
 st.title('FastMRI with SwinIR')
 
-# Sidebar for file upload and download
 st.sidebar.title("Upload and Process")
 uploaded_file = st.sidebar.file_uploader("Choose an image...", type=["png", "jpg", "jpeg"])
 process_button = st.sidebar.button('Upscale Image')
@@ -933,7 +930,6 @@ if uploaded_file is not None:
             col2.image(processed_image, use_column_width=True)
             st.sidebar.success('Here is your upscaled image!')
 
-            # Providing download functionality
             buffered = io.BytesIO()
             processed_image.save(buffered, format="JPEG")
             st.sidebar.download_button(
