@@ -14,7 +14,7 @@ FastMRI aims to solve the problems of the slow scanning process of MRI images. I
 ## Finetuning
 
 ### Dataset
-Download additional dataset from https://fastmri.med.nyu.edu and save the file in the h5datafiles folder.
+Download additional dataset from https://fastmri.med.nyu.edu and save the file in the h5datafiles folder. One file is in the repository as in example.
 
 ### Training
 
